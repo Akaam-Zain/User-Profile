@@ -23,7 +23,7 @@
         android:text="@string/username" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/etDobPM"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -50,13 +50,14 @@
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioMalePM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="@string/male" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioFemalePM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/female" />
@@ -67,4 +68,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/update_profile" />
+
+    <Button
+        android:id="@+id/btnAddUserPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user" />
 </LinearLayout>

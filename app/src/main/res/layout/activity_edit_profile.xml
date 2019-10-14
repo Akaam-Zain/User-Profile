@@ -22,6 +22,12 @@
         android:inputType="textPersonName"
         android:text="@string/username" />
 
+    <Button
+        android:id="@+id/searchEP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
     <EditText
         android:id="@+id/etDobEP"
         android:layout_width="match_parent"
@@ -50,13 +56,13 @@
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioMaleEP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/male" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/radioFemaleEP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/female" />
